@@ -11,7 +11,7 @@ jobs:
   front-build:
     runs-on: ubuntu-latest
     defaults:
-      runs:
+      run:
         working-directory: frontend
     steps:
       - name: Checkout repository (git clone)
